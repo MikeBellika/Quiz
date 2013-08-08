@@ -1,0 +1,22 @@
+{
+    "questions":[
+        {
+		  "question": "Hvad er 10?",
+		  "answers":[
+    	    {"answer": "5+5*3"},
+			{"answer": "2+2"},
+			{"answer": "2+5"},
+			{"answer": "11-2"}  
+		  ]
+		},	
+    	{
+			"question": "Hvad er 11?",
+			"answers":[
+    		    {"answer": "5+10"},
+			    {"answer": "2*2"},
+			    {"answer": "2/5"},
+			    {"answer": "1187-2"}  
+			]
+		}
+    ]
+}

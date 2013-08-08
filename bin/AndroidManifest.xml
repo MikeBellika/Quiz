@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="dk.unf.software.aar2013.gruppe5"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="dk.unf.software.aar2013.gruppe5.MainActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dk.unf.software.aar2013.gruppe5.HighscoreActivity2"
+            android:label="@string/title_activity_highscore_activity2"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dk.unf.software.aar2013.gruppe5.Startpage"
+            android:label="@string/title_activity_startpage"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="dk.unf.software.aar2013.gruppe5.About"
+            android:label="@string/title_activity_about"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dk.unf.software.aar2013.gruppe5.HowTo"
+            android:label="@string/title_activity_how_to"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="dk.unf.software.aar2013.gruppe5.SprintActivity"
+            android:label="@string/title_activity_sprint" >
+        </activity>
+        <activity
+            android:name="dk.unf.software.aar2013.gruppe5.MultiplayerActivity"
+            android:label="@string/title_activity_multiplayer" >
+        </activity>
+    </application>
+
+</manifest>

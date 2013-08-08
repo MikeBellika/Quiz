@@ -1,0 +1,56 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/desires"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".HowTo" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="225dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Vælg spiltype"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <Button
+        android:id="@+id/marathonButton"
+        style="@style/btnStyleArsenic"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:text="Marathon" />
+
+    <Button
+        android:id="@+id/sprintButton"
+        style="@style/btnStyleArsenic"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:text="Sprint" />
+
+    <Button
+            style="@style/btnStyleArsenic"
+            android:id="@+id/multiplayer"
+            android:layout_width="fill_parent"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:text="Multiplayer"
+            android:layout_gravity="center"/>
+
+</LinearLayout><!-- From: file:/C:/Users/Kim%20Voss/Programmering/SDC%202013%20fagligt/Gruppe%20projekter/Gruppe5/res/layout/activity_how_to.xml -->

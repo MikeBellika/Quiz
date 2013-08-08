@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/desires"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".About" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="225dp"
+        android:layout_height="85dp"
+        android:layout_gravity="center"
+        android:src="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/counter"
+        android:layout_width="280dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.91"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Hej bruger! \n
+Tak fordi du downloadede vores APP. Vi håber, du synes godt om den.
+”Quiz Dysten” er Quizverdenens nye svar på Subway Surf. Quizzen er fyldt med hjernevridende spørgsmål, som kan nydes i fællesskab med andre. Hvem kan slå din highscore, kloge Åge? - din mor, far, hund eller bedste ven? 
+”Quiz Dysten” er udviklet af 4 unge mænd på Software Development Camp 2013.\n
+Hilsen teamet bag \n \n
+Udviklere: \n Mike Bellika \n Michael Nguyen \n Jacob Qvist \n Niklas Missel  \n\n
+SHOUTOUT: vi er super taknemmelige for at UNF – SDC har givet os chancen for lave denne APP." />
+
+
+</LinearLayout>

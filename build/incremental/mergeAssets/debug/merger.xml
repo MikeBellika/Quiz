@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merger>
+
+    <dataSet config="main" >
+        <source path="C:\Users\Kim Voss\Programmering\SDC 2013 fagligt\Gruppe projekter\Gruppe5\assets" >
+            <file
+                name="questions.json"
+                path="C:\Users\Kim Voss\Programmering\SDC 2013 fagligt\Gruppe projekter\Gruppe5\assets\questions.json" />
+        </source>
+    </dataSet>
+    <dataSet config="debug" >
+        <source path="C:\Users\Kim Voss\Programmering\SDC 2013 fagligt\Gruppe projekter\Gruppe5\build-types\debug\assets" />
+    </dataSet>
+
+</merger>
