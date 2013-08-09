@@ -85,7 +85,7 @@ public class MainActivity extends FragmentActivity implements
         if (a == ca) {
             Toast.makeText(getApplicationContext(), "RIGTIGT!",
                     Toast.LENGTH_SHORT).show();
-            //ignore this commentd
+            //ignore this commentdk
             qm.correct();
             score = (TextView) findViewById(R.id.score);
             score.setText("Dine points: " + qm.score);
