@@ -13,4 +13,9 @@
     <string name="title_activity_sprint">SprintActivity</string>
     <string name="title_activity_multiplayer">Multiplayer</string>
 
+    <string-array name="categories">
+        <item>Sport</item>
+        <item>Musik</item>
+    </string-array>
+
 </resources>

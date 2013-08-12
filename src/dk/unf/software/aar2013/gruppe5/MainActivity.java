@@ -48,6 +48,8 @@ public class MainActivity extends FragmentActivity implements
     ArrayList<Integer> highScores;
     ArrayList<String> highScoresNames;
     SharedPreferences prefs;
+    private final int questionAmount = 14;
+
 
     public void reset() {
         i = 0;
@@ -90,7 +92,7 @@ public class MainActivity extends FragmentActivity implements
             score = (TextView) findViewById(R.id.score);
             score.setText("Dine points: " + qm.score);
             Log.d("ASASGAS", qm.allQuestions.size() + "");
-            if (qm.score == questions.size()) {
+            if (qm.score == 61) {
                 qm.reset();
                 ArrayList<Integer> temp = new ArrayList<Integer>();
                 highScore();
@@ -176,8 +178,7 @@ public class MainActivity extends FragmentActivity implements
             jQuestions = json.getJSONArray(TAG_QUESTIONS);
             Log.d("yoloswag", "test123");
 
-
-            JSONObject q = jQuestions.getJSONObject(i);
+            JSONObject q = jQuestions.getJSONObject(questionList.get(i));
             String question = q.getString(TAG_QUESTION);
             Log.d("JSON", question + " zomg");
             jAnswers = q.getJSONArray(TAG_ANSWERS);
@@ -223,8 +224,9 @@ public class MainActivity extends FragmentActivity implements
     public String loadJSONFromAsset() {
         String json = null;
         try {
-
-            InputStream is = getAssets().open("questions.json");
+            String category = getIntent().getStringExtra("category");
+//            Toast.makeText(this, "LOL" + category, Toast.LENGTH_SHORT).show();
+            InputStream is = getAssets().open(category +".json");
 
             int size = is.available();
 
@@ -250,8 +252,7 @@ public class MainActivity extends FragmentActivity implements
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-
+        questionList = randomList(questionAmount);
         prefs = PreferenceManager.getDefaultSharedPreferences(this);
         Editor edit = prefs.edit();
         // edit.putInt("highscore1", i);
@@ -267,7 +268,6 @@ public class MainActivity extends FragmentActivity implements
             highScoresNames.add(prefs.getString("highscoreName" + i, ""));
         }
 
-        questionList = randomList(qm.allQuestions.size());
 
         nextQuestion();
         Log.d("test", answers.get(0) + " " + answerList.get(0));

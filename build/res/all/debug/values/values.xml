@@ -1,6 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
+    <!-- From: file:/C:/Users/Kim%20Voss/Programmering/SDC%202013%20fagligt/Gruppe%20projekter/Gruppe5/res/values/strings.xml -->
+    <string-array name="categories">
+        <item>Sport</item>
+        <item>Musik</item>
+    </string-array>
     <!-- From: file:/C:/Users/Kim%20Voss/Programmering/SDC%202013%20fagligt/Gruppe%20projekter/Gruppe5/res/values/dimens.xml -->
     <dimen name="activity_horizontal_margin">16dp</dimen>
     <dimen name="activity_vertical_margin">16dp</dimen>

@@ -53,4 +53,10 @@
             android:text="Multiplayer"
             android:layout_gravity="center"/>
 
+    <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_gravity="center"/>
+
 </LinearLayout><!-- From: file:/C:/Users/Kim%20Voss/Programmering/SDC%202013%20fagligt/Gruppe%20projekter/Gruppe5/res/layout/activity_how_to.xml -->

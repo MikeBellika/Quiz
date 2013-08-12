@@ -1,22 +1,130 @@
-{
+﻿{
     "questions":[
         {
-		  "question": "Hvad er 10?",
+    	  "question": "Hvor mange spillere er der på banen i en håndboldkamp?",
 		  "answers":[
-    	    {"answer": "5+5*3"},
-			{"answer": "2+2"},
-			{"answer": "2+5"},
-			{"answer": "11-2"}  
+    	    {"answer": "14"},
+			{"answer": "12"},
+			{"answer": "10"},
+			{"answer": "8"}  
 		  ]
 		},	
-    	{
-			"question": "Hvad er 11?",
-			"answers":[
-    		    {"answer": "5+10"},
-			    {"answer": "2*2"},
-			    {"answer": "2/5"},
-			    {"answer": "1187-2"}  
-			]
+		{
+		  "question": "Hvilke lande var Danmark i pulje med ved fodbold VM i Sydafrika 2010?",
+		  "answers":[
+    	    {"answer": "Holland, Japan og Cameroun"},
+			{"answer": "Holland, Japan og Tyskland"},
+			{"answer": "Holland, Japan og Spanien"},
+			{"answer": "Holland, Japan og Island"}  
+		  ]
+		},
+		{
+		  "question": "Hvor mange danske mesterskaber i badminton har Camilla Martin vundet i træk?",
+		  "answers":[
+    	    {"answer": "13"},
+			{"answer": "5"},
+			{"answer": "2"},
+			{"answer": "9"}  
+		  ]
+		},
+		{
+		  "question": "Hvor mange hold er der i Superligaen?",
+		  "answers":[
+    	    {"answer": "12"},
+			{"answer": "11"},
+			{"answer": "13"},
+			{"answer": "14"}  
+		  ]
+		},
+		{
+		  "question": "Hvad hed kampbolden ved fodbold VM slutrunden i Sydafrika 2010?",
+		  "answers":[
+    	    {"answer": "Jabulani"},
+			{"answer": "The golden ball"},
+			{"answer": "African ball"},
+			{"answer": "Adidas Special WM edition"}  
+		  ]
+		},
+		{
+		  "question": "Hvilket år stoppede landsholdet med at spille i Hummel-tøj?",
+		  "answers":[
+    	    {"answer": "2004"},
+			{"answer": "2002"},
+			{"answer": "2000"},
+			{"answer": "Hummeltøj?"}  
+		  ]
+		},
+		{
+		  "question": "Hvilken af følgende danske sportsudøvere har deltaget i fem olympiske lege i træk?",
+		  "answers":[
+    	    {"answer": "Mette Jacobsen"},
+			{"answer": "Anja Andersen"},
+			{"answer": "Jesper Bang"},
+			{"answer": "Joachim B. Olsen"}  
+		  ]
+		},
+		{
+		  "question": "Hvilken etape endte med en anden plads til Fuglsang i Tour de France 2013?",
+		  "answers":[
+    	    {"answer": "9. etape"},
+			{"answer": "3. etape"},
+			{"answer": "6. etape"},
+			{"answer": "15. etape"}  
+		  ]
+		},
+		{
+		  "question": "Hvilken plads kom Jakob Fuglsang på i det samlede klassement i Touren 2013?",
+		  "answers":[
+    	    {"answer": "7. plads"},
+			{"answer": "11. plads"},
+			{"answer": "18. plads"},
+			{"answer": "58. plads"}  
+		  ]
+		},
+		{
+		  "question": "Hvilket hold kører Jakob Fuglsang for?",
+		  "answers":[
+    	    {"answer": "Astana Team"},
+			{"answer": "Team Saxo Bank"},
+			{"answer": "Cannondale"},
+			{"answer": "Team Scott"}  
+		  ]
+		},
+		{
+		  "question": "Hvilket år var fodbolds fødeår?",
+		  "answers":[
+    	    {"answer": "1863"},
+			{"answer": "1916"},
+			{"answer": "1852"},
+			{"answer": "1784"}  
+		  ]
+		},
+		{
+		  "question": "Hvor blev fodbold opfundet?",
+		  "answers":[
+    	    {"answer": "England"},
+			{"answer": "Brasilien"},
+			{"answer": "Tyskland"},
+			{"answer": "Spanien"}  
+		  ]
+		},
+		{
+		  "question": "Fodbold. Hvor mange gule kort skal der til for at få et rødt?",
+		  "answers":[
+    	    {"answer": "1"},
+			{"answer": "2"},
+			{"answer": "3"},
+			{"answer": "4"}  
+		  ]
+		},
+		{
+		  "question": "Hvilken sport er Thomas Bjørn kendt fra?",
+		  "answers":[
+    	    {"answer": "Golf"},
+			{"answer": "Fodbold"},
+			{"answer": "Badminton"},
+			{"answer": "Poker"}  
+		  ]
 		}
     ]
 }
